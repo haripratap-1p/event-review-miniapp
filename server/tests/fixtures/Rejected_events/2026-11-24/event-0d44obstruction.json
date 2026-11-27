@@ -1,0 +1,24 @@
+{
+ "kind": "reject",
+ "request": {
+  "kind": "reject",
+  "event_id": "event-0d44obstruction",
+  "event_type": "OBSTRUCTION",
+  "ts": 1795503600,
+  "actor_name": "Asha Rao",
+  "reason": "camera was clear",
+  "frisked": null,
+  "checkpoints": null,
+  "description": null,
+  "subject_name": null,
+  "performer_name": null
+ },
+ "clips": [
+  {
+   "camera": "cam1",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0d44obstruction_cam1.mp4",
+   "start": "2026-11-24T06:59:25+00:00",
+   "end": "2026-11-24T07:00:35+00:00"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "kind": "reject",
+ "request": {
+  "kind": "reject",
+  "event_id": "event-0b22older",
+  "event_type": "FRISKING",
+  "ts": 1795410600,
+  "actor_name": "Santosh Kumar",
+  "reason": "not a customer"
+ },
+ "clips": []
+}

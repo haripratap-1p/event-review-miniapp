@@ -1,0 +1,21 @@
+{
+  "name": "event-review-miniapp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "node src/logic.check.mjs",
+    "dev-clips": "mkdir -p dev-fixtures/dev-clips && for s in testsrc testsrc2 smptebars; do ffmpeg -y -loglevel error -f lavfi -i $s=size=1280x720:rate=25 -t 10 -pix_fmt yuv420p -movflags +faststart dev-fixtures/dev-clips/$s.mp4; done"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}

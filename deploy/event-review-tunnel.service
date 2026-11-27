@@ -1,0 +1,15 @@
+[Unit]
+Description=Event review: Cloudflare quick tunnel to the API on 127.0.0.1:8789
+After=network-online.target
+
+[Service]
+User=thor01
+ExecStart=/usr/local/bin/cloudflared tunnel --no-autoupdate --url http://127.0.0.1:8789
+# the API reads the current tunnel host from this log
+StandardOutput=append:/home/thor01/event_review/tunnel.log
+StandardError=append:/home/thor01/event_review/tunnel.log
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

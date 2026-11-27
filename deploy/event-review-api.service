@@ -1,0 +1,17 @@
+[Unit]
+Description=Event review: API for the Telegram Mini App on 127.0.0.1:8789
+After=event-review-tunnel.service network-online.target
+Wants=event-review-tunnel.service
+
+[Service]
+User=thor01
+WorkingDirectory=/home/thor01/event-review-miniapp/server
+EnvironmentFile=/etc/event-review.env
+ExecStart=/usr/bin/python3 -u -m event_review serve
+StandardOutput=append:/home/thor01/event_review/api.log
+StandardError=append:/home/thor01/event_review/api.log
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

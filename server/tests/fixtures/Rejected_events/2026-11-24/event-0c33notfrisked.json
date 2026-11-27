@@ -1,0 +1,36 @@
+{
+ "kind": "reject",
+ "request": {
+  "kind": "reject",
+  "event_id": "event-0c33notfrisked",
+  "event_type": "FRISKING",
+  "ts": 1795501805,
+  "actor_name": "Asha Rao",
+  "reason": "he was frisked",
+  "frisked": false,
+  "checkpoints": null,
+  "description": "Test Subject C was not frisked",
+  "subject_name": "Test Subject C",
+  "performer_name": null
+ },
+ "clips": [
+  {
+   "camera": "cam1",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0c33notfrisked_cam1.mp4",
+   "start": "2026-11-24T06:29:30+00:00",
+   "end": "2026-11-24T06:30:40+00:00"
+  },
+  {
+   "camera": "cam2",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0c33notfrisked_cam2.mp4",
+   "start": "2026-11-24T06:29:30+00:00",
+   "end": "2026-11-24T06:30:40+00:00"
+  },
+  {
+   "camera": "cam3",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0c33notfrisked_cam3.mp4",
+   "start": "2026-11-24T06:29:30+00:00",
+   "end": "2026-11-24T06:30:40+00:00"
+  }
+ ]
+}

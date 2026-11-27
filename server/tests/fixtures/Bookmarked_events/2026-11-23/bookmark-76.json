@@ -1,0 +1,24 @@
+{
+ "kind": "bookmark",
+ "request": {
+  "kind": "bookmark",
+  "bookmark_id": "76",
+  "ts": 1795433400,
+  "bookmark_name": "Crowd at entry",
+  "actor_name": "Asha Rao"
+ },
+ "clips": [
+  {
+   "camera": "cam1",
+   "file": "/home/thor01/AI-ML/Bookmarked_events/bookmark-76_cam1.mp4",
+   "start": "2026-11-23T11:30:00+00:00",
+   "end": "2026-11-23T11:30:00+00:00"
+  },
+  {
+   "camera": "cam2",
+   "file": "/home/thor01/AI-ML/Bookmarked_events/bookmark-76_cam2.mp4",
+   "start": "2026-11-23T11:30:00+00:00",
+   "end": "2026-11-23T11:30:00+00:00"
+  }
+ ]
+}

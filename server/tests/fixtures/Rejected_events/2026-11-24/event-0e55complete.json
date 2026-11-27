@@ -1,0 +1,39 @@
+{
+ "kind": "reject",
+ "request": {
+  "kind": "reject",
+  "event_id": "event-0e55complete",
+  "event_type": "FRISKING",
+  "ts": 1795508140,
+  "actor_name": "Santosh Kumar",
+  "reason": "wrong person",
+  "frisked": true,
+  "checkpoints": {
+   "neck": true,
+   "shoulders": true,
+   "underarms": true,
+   "hip_waist": true,
+   "left_knee": true,
+   "right_knee": true,
+   "left_ankle": true,
+   "right_ankle": true
+  },
+  "description": null,
+  "subject_name": "Test Subject D",
+  "performer_name": "Test Guard E"
+ },
+ "clips": [
+  {
+   "camera": "cam1",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0e55complete_cam1.mp4",
+   "start": "2026-11-24T08:15:05+00:00",
+   "end": "2026-11-24T08:16:15+00:00"
+  },
+  {
+   "camera": "cam2",
+   "file": "/home/thor01/AI-ML/Rejected_events/event-0e55complete_cam2.mp4",
+   "start": "2026-11-24T08:15:05+00:00",
+   "end": "2026-11-24T08:16:15+00:00"
+  }
+ ]
+}
